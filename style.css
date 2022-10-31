@@ -1,3 +1,4 @@
+
 @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
@@ -13,7 +14,7 @@
   body {
     min-height: 100vh;
     background: #212534;
-    background-image: url("./image/3d-glass-window-logo-mkup.jpg");
+    background-image: url("./image/lib1.jpg");
     background-size:cover;
      background-repeat:no-repeat;
     display: flex;
@@ -56,7 +57,8 @@
     margin-top: 2%;
     color: #e9bc79;
     font-family:cursive;
-    /* justify-content: center; */
+    justify-content: center;
+    text-align: center;
     font-size: 50px;
   }
   .brod
@@ -111,7 +113,7 @@ flex-direction: column;
   }
   .card {
     background: #191c29;
-    width: var(--card-width);
+    /* width: var(--card-width); */
     height: var(--card-height);
     padding: 3px;
     position: relative;
